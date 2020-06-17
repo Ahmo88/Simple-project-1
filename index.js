@@ -1,10 +1,10 @@
-///<reference path="../Ajax-PHP-save-and-read-text-value/node_modules/@types/jquery/index.d.ts" />
+///<reference path="./node_modules/@types/jquery/index.d.ts" />
 
 window.onload = function () {
 
 
     $(function () {
-    
+
         $("#saveBtn").click(function (e) {
             //Get value from textBox
             var dataset = { "text1Value": document.getElementById('text1').value };
